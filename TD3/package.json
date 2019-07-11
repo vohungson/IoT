@@ -1,0 +1,25 @@
+{
+  "name": "startercode",
+  "version": "1.0.0",
+  "description": "testing the code for the client and server",
+  "main": "client.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "VO HUNG SON",
+  "license": "ISC"
+}
+
